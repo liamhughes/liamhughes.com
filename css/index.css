@@ -1,0 +1,17 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.main > * {
+    flex: 0 0 auto;
+}
