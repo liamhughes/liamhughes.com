@@ -1,0 +1,6 @@
+{
+    "version": 2,
+    "routes": [
+      { "src": "/.*\\.xml", "dest": "http://macmini.liamhughes.com"}
+    ]
+  }
