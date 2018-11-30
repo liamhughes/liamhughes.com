@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/liamhughes/liamhughes.com/issues"
   },
-  "homepage": "https://github.com/liamhughes/liamhughes.com#readme"
+  "homepage": "https://github.com/liamhughes/liamhughes.com#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
 }
