@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/liamhughes/liamhughes.com#readme",
   "dependencies": {
+    "handlebars": "^4.0.12",
+    "moment-timezone": "^0.5.23",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {

@@ -2,6 +2,12 @@
     "version": 2,
     "alias": ["liamhughes.com", "www.liamhughes.com"],
     "routes": [
+      { "src": "/rss-goal.xml", "dest": "/lambdas/RssGoal.js" },
       { "src": "/.*\\.xml", "dest": "http://macmini.liamhughes.com"}
+    ],
+    "builds": [
+      { "src": "*.html", "use": "@now/static" },
+      { "src": "css/*.css", "use": "@now/static" },
+      { "src": "lambdas/*.js", "use": "@now/node" }
     ]
   }
