@@ -1,5 +1,6 @@
 {
     "version": 2,
+    "alias": ["liamhughes.com", "www.liamhughes.com"],
     "routes": [
       { "src": "/.*\\.xml", "dest": "http://macmini.liamhughes.com"}
     ]
