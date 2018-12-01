@@ -19,5 +19,8 @@
   "homepage": "https://github.com/liamhughes/liamhughes.com#readme",
   "dependencies": {
     "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0"
   }
 }
