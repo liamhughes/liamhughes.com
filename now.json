@@ -7,6 +7,7 @@
     ],
     "builds": [
       { "src": "*.html", "use": "@now/static" },
+      { "src": "*.ico", "use": "@now/static" },
       { "src": "css/*.css", "use": "@now/static" },
       { "src": "lambdas/*.js", "use": "@now/node" }
     ]
