@@ -2,7 +2,10 @@ const handlebars = require('handlebars');
 const moment = require('moment-timezone');
 
 /*
-    TODO: Unit tests!
+    TODO
+        Unit tests!
+        Fix UTC issue
+        Site field in XML
 */
 
 const feedTemplate = handlebars.compile(`<?xml version="1.0" encoding="UTF-8"?>
@@ -14,12 +17,15 @@ const feedTemplate = handlebars.compile(`<?xml version="1.0" encoding="UTF-8"?>
             <title>{{itemTitle}}</title>
             <guid>{{itemGuid}}</guid>
             <pubDate>{{itemPubDate}}</pubDate>
+            {{#if isPodcast}}
+            <enclosure url="http://soundbible.com/grab.php?id=2030&amp;type=mp3" type="audio/mpeg"/>
+            {{/if}}
         </item>
     {{/each}}
     </channel>
 </rss>`);
 
-const rssGoalXmlGenerator = ({channelTitle, dueDate, goalDate, itemTitlePrefix}) => {
+const rssGoalXmlGenerator = ({channelTitle, dueDate, goalDate, isPodcast, itemTitlePrefix}) => {
     const context = {};
     const entries = [];
 
@@ -31,6 +37,7 @@ const rssGoalXmlGenerator = ({channelTitle, dueDate, goalDate, itemTitlePrefix})
     while(goalDateMoment.isBefore()){
         if(dueDateMoment.isoWeekday() < 6){
             entries.push({
+                isPodcast: typeof isPodcast === 'string' && isPodcast.toLowerCase() === 'true',
                 itemTitle: itemTitlePrefix + ' ' + dueDateMoment.format('YYYY-MM-DD'),
                 itemGuid: goalDateMoment.utc().format('ddd, DD MMM YYYY HH:mm:ss z'),
                 itemPubDate: goalDateMoment.utc().format('ddd, DD MMM YYYY HH:mm:ss z')
