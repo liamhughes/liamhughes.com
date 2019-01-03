@@ -6,6 +6,7 @@ const moment = require('moment-timezone');
         Unit tests!
         Fix UTC issue
         Site field in XML
+        External handlebars?
 */
 
 const feedTemplate = handlebars.compile(`<?xml version="1.0" encoding="UTF-8"?>
