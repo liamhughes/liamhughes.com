@@ -67,7 +67,7 @@ const readScriptureXmlGenerator = () => {
 
         return {
             itemTitle: entry.title,
-            itemEnclosureUrl: itemUrl,
+            itemEnclosureUrl: encodeURI(itemUrl),
             itemEnclosureType: 'audio/mpeg',
             itemGuid: date.format('ddd, DD MMM YYYY HH:mm:ss z'),
             itemPubDate: date.format('ddd, DD MMM YYYY HH:mm:ss z')
