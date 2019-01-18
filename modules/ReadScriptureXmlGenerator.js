@@ -8,7 +8,7 @@ const moment = require('moment-timezone');
         Site field in XML
         External handlebars?
         Load entries directly from xlsx
-        Move file hosting
+        Move ReadScripture.json to B2?
 */
 
 const feedTemplate = handlebars.compile(`<?xml version="1.0" encoding="UTF-8"?>
@@ -63,7 +63,7 @@ const readScriptureXmlGenerator = () => {
 
     context.items = filteredEntries.map((entry) => {
         const date = momentWithTimezone(entry.date),
-            itemUrl = 'http://macmini.liamhughes.com/read-scripture/' + entry.file;
+            itemUrl = 'https://f001.backblazeb2.com/file/ReadScripture/' + entry.file.split(' ').join('+');
 
         return {
             itemTitle: entry.title,
