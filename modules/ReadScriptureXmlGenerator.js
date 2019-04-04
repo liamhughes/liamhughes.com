@@ -1,4 +1,5 @@
 const handlebars = require('handlebars');
+const replace = require('lodash/replace');
 const moment = require('moment-timezone');
 
 /*
@@ -63,7 +64,7 @@ const readScriptureXmlGenerator = () => {
 
     context.items = filteredEntries.map((entry) => {
         const date = momentWithTimezone(entry.date),
-            itemUrl = 'https://f001.backblazeb2.com/file/ReadScripture/' + encodeURI(entry.file).split(' ').join('+');
+            itemUrl = 'https://f001.backblazeb2.com/file/ReadScripture/' + replace(entry.file, new RegExp("&","g"),"%26").split(' ').join('+');
 
         return {
             itemTitle: entry.title,
