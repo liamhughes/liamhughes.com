@@ -63,7 +63,7 @@ const readScriptureXmlGenerator = () => {
 
     context.items = filteredEntries.map((entry) => {
         const date = momentWithTimezone(entry.date),
-            itemUrl = 'https://f001.backblazeb2.com/file/ReadScripture/' + entry.file.split(' ').join('+');
+            itemUrl = 'https://f001.backblazeb2.com/file/ReadScripture/' + encodeURI(entry.file).split(' ').join('+');
 
         return {
             itemTitle: entry.title,
