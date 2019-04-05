@@ -63,12 +63,18 @@ const readScriptureXmlGenerator = () => {
     });
 
     context.items = filteredEntries.map((entry) => {
-        const date = momentWithTimezone(entry.date),
-            itemUrl = 'https://f001.backblazeb2.com/file/ReadScripture/' + replace(entry.file, new RegExp("&","g"),"%26").split(' ').join('+');
+        const date = momentWithTimezone(entry.date);
+
+        let fileName = entry.file;
+        fileName = fileName.split(' ').join('+');
+        fileName = replace(fileName, new RegExp('&','g'), '%26');
+        fileName = encodeURI(fileName);
+
+        const itemUrl = 'https://f001.backblazeb2.com/file/ReadScripture/' + fileName;
 
         return {
             itemTitle: entry.title,
-            itemEnclosureUrl: encodeURI(itemUrl),
+            itemEnclosureUrl: itemUrl,
             itemEnclosureType: 'audio/mpeg',
             itemGuid: date.format('ddd, DD MMM YYYY HH:mm:ss z'),
             itemPubDate: date.format('ddd, DD MMM YYYY HH:mm:ss z')
