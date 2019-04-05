@@ -67,9 +67,9 @@ const readScriptureXmlGenerator = () => {
 
         let fileName = entry.file;
         fileName = fileName.split(' ').join('+');
-        fileName = replace(fileName, new RegExp('&','g'), '%26');
         fileName = encodeURI(fileName);
-
+        fileName = replace(fileName, new RegExp('&','g'), '%26');
+        
         const itemUrl = 'https://f001.backblazeb2.com/file/ReadScripture/' + fileName;
 
         return {
