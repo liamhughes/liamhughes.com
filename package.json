@@ -18,12 +18,12 @@
   },
   "homepage": "https://github.com/liamhughes/liamhughes.com#readme",
   "dependencies": {
-    "handlebars": "^4.0.12",
+    "handlebars": "^4.1.2",
     "lodash": "^4.17.11",
-    "moment-timezone": "^0.5.23",
+    "moment-timezone": "^0.5.25",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
-    "eslint": "^5.9.0"
+    "eslint": "^5.16.0"
   }
 }
