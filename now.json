@@ -2,7 +2,6 @@
     "version": 2,
     "alias": ["liamhughes.com", "www.liamhughes.com"],
     "routes": [
-      { "src": "/css/normalize.css", "dest": "/node_modules/normalize.css/normalize.css" },
       { "src": "/read-scripture.xml", "dest": "/lambdas/ReadScripture.js" },
       { "src": "/rss-goal.xml", "dest": "/lambdas/RssGoal.js" }
     ],
@@ -11,7 +10,6 @@
       { "src": "*.ico", "use": "@now/static" },
       { "src": "css/*.css", "use": "@now/static" },
       { "src": "lambdas/*.js", "use": "@now/node" },
-      { "src": "modules/*.json", "use": "@now/static" },
-      { "src": "node_modules/normalize.css/normalize.css", "use": "@now/static" }
+      { "src": "modules/*.json", "use": "@now/static" }
     ]
   }
