@@ -2,8 +2,8 @@
   "name": "liamhughes.com",
   "version": "1.0.0",
   "description": "My website",
-  "engines": { 
-    "node": "12.x" 
+  "engines": {
+    "node": "12.x"
   },
   "main": "index.js",
   "scripts": {
@@ -23,10 +23,10 @@
   "dependencies": {
     "handlebars": "^4.3.0",
     "lodash": "^4.17.15",
-    "moment-timezone": "^0.5.26",
+    "moment-timezone": "^0.5.28",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
-    "eslint": "^6.2.2"
+    "eslint": "^6.8.0"
   }
 }
