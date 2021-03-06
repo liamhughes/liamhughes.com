@@ -291,8 +291,8 @@
   },
   {
     "date": "2021-01-12 00:01:00",
-    "title": "Plot",
-    "file": "Plot.mp3"
+    "title": "How to Read Biblical Narrative - Plot",
+    "file": "How to Read Biblical Narrative - Plot.mp3"
   },
   {
     "date": "2021-01-12 00:02:00",
@@ -316,8 +316,8 @@
   },
   {
     "date": "2021-01-13 00:01:00",
-    "title": "Character",
-    "file": "Character.mp3"
+    "title": "How to Read Biblical Narrative - Character",
+    "file": "How to Read Biblical Narrative - Character.mp3"
   },
   {
     "date": "2021-01-13 00:02:00",
@@ -336,8 +336,8 @@
   },
   {
     "date": "2021-01-14 00:01:00",
-    "title": "Setting",
-    "file": "Setting.mp3"
+    "title": "How to Read Biblical Narrative - Setting",
+    "file": "How to Read Biblical Narrative - Setting.mp3"
   },
   {
     "date": "2021-01-14 00:02:00",
@@ -1466,26 +1466,31 @@
   },
   {
     "date": "2021-03-07 00:01:00",
+    "title": "How to Read Biblical Narrative - Design Patterns",
+    "file": "How to Read Biblical Narrative - Design Patterns.mp3"
+  },
+  {
+    "date": "2021-03-07 00:02:00",
     "title": "Joshua 5",
     "file": "Joshua 05.mp3"
   },
   {
-    "date": "2021-03-07 00:02:00",
+    "date": "2021-03-07 00:03:00",
     "title": "Joshua 6",
     "file": "Joshua 06.mp3"
   },
   {
-    "date": "2021-03-07 00:03:00",
+    "date": "2021-03-07 00:04:00",
     "title": "Joshua 7",
     "file": "Joshua 07.mp3"
   },
   {
-    "date": "2021-03-07 00:04:00",
+    "date": "2021-03-07 00:05:00",
     "title": "Joshua 8",
     "file": "Joshua 08.mp3"
   },
   {
-    "date": "2021-03-07 00:05:00",
+    "date": "2021-03-07 00:06:00",
     "title": "Psalm 66",
     "file": "Psalm 066.mp3"
   },
