@@ -2821,16 +2821,21 @@
   },
   {
     "date": "2021-05-01 00:01:00",
+    "title": "Compassion",
+    "file": "Compassion.mp3"
+  },
+  {
+    "date": "2021-05-01 00:02:00",
     "title": "Isaiah 49",
     "file": "Isaiah 49.mp3"
   },
   {
-    "date": "2021-05-01 00:02:00",
+    "date": "2021-05-01 00:03:00",
     "title": "Isaiah 50",
     "file": "Isaiah 50.mp3"
   },
   {
-    "date": "2021-05-01 00:03:00",
+    "date": "2021-05-01 00:04:00",
     "title": "Isaiah 51",
     "file": "Isaiah 51.mp3"
   },
@@ -3566,8 +3571,8 @@
   },
   {
     "date": "2021-06-02 00:01:00",
-    "title": "Proverbs",
-    "file": "Proverbs.mp3"
+    "title": "The Books of Solomon",
+    "file": "The Books of Solomon.mp3"
   },
   {
     "date": "2021-06-02 00:02:00",
@@ -3591,8 +3596,8 @@
   },
   {
     "date": "2021-06-03 00:01:00",
-    "title": "Wisdom - Proverbs",
-    "file": "Wisdom - Proverbs.mp3"
+    "title": "Proverbs",
+    "file": "Proverbs.mp3"
   },
   {
     "date": "2021-06-03 00:02:00",
@@ -3616,21 +3621,26 @@
   },
   {
     "date": "2021-06-04 00:01:00",
+    "title": "Wisdom - Proverbs",
+    "file": "Wisdom - Proverbs.mp3"
+  },
+  {
+    "date": "2021-06-04 00:02:00",
     "title": "Proverbs 7",
     "file": "Proverbs 07.mp3"
   },
   {
-    "date": "2021-06-04 00:02:00",
+    "date": "2021-06-04 00:03:00",
     "title": "Proverbs 8",
     "file": "Proverbs 08.mp3"
   },
   {
-    "date": "2021-06-04 00:03:00",
+    "date": "2021-06-04 00:04:00",
     "title": "Proverbs 9",
     "file": "Proverbs 09.mp3"
   },
   {
-    "date": "2021-06-04 00:04:00",
+    "date": "2021-06-04 00:05:00",
     "title": "Psalm 150",
     "file": "Psalm 150.mp3"
   },
