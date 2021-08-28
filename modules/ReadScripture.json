@@ -5601,31 +5601,41 @@
   },
   {
     "date": "2021-08-27 00:01:00",
+    "title": "Son of Man",
+    "file": "Son of Man.mp3"
+  },
+  {
+    "date": "2021-08-27 00:02:00",
     "title": "Matthew 7",
     "file": "Matthew 07.mp3"
   },
   {
-    "date": "2021-08-27 00:02:00",
+    "date": "2021-08-27 00:03:00",
     "title": "Matthew 8",
     "file": "Matthew 08.mp3"
   },
   {
-    "date": "2021-08-27 00:03:00",
+    "date": "2021-08-27 00:04:00",
     "title": "Psalm 84",
     "file": "Psalm 084.mp3"
   },
   {
     "date": "2021-08-28 00:01:00",
+    "title": "God",
+    "file": "God.mp3"
+  },
+  {
+    "date": "2021-08-28 00:02:00",
     "title": "Matthew 9",
     "file": "Matthew 09.mp3"
   },
   {
-    "date": "2021-08-28 00:02:00",
+    "date": "2021-08-28 00:03:00",
     "title": "Matthew 10",
     "file": "Matthew 10.mp3"
   },
   {
-    "date": "2021-08-28 00:03:00",
+    "date": "2021-08-28 00:04:00",
     "title": "Psalm 85",
     "file": "Psalm 085.mp3"
   },
@@ -5646,16 +5656,21 @@
   },
   {
     "date": "2021-08-30 00:01:00",
+    "title": "Parables of Jesus",
+    "file": "Parables of Jesus.mp3"
+  },
+  {
+    "date": "2021-08-30 00:02:00",
     "title": "Matthew 13",
     "file": "Matthew 13.mp3"
   },
   {
-    "date": "2021-08-30 00:02:00",
+    "date": "2021-08-30 00:03:00",
     "title": "Matthew 14",
     "file": "Matthew 14.mp3"
   },
   {
-    "date": "2021-08-30 00:03:00",
+    "date": "2021-08-30 00:04:00",
     "title": "Psalm 87",
     "file": "Psalm 087.mp3"
   },
