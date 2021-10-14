@@ -6126,8 +6126,8 @@
   },
   {
     "date": "2021-09-25 00:01:00",
-    "title": "Gospel - Luke 1-2",
-    "file": "Gospel - Luke 1-2.mp3"
+    "title": "Luke-Acts - The Birth of Jesus",
+    "file": "Luke-Acts - The Birth of Jesus.mp3"
   },
   {
     "date": "2021-09-25 00:02:00",
@@ -6146,8 +6146,8 @@
   },
   {
     "date": "2021-09-26 00:01:00",
-    "title": "Gospel - Luke 3-9",
-    "file": "Gospel - Luke 3-9.mp3"
+    "title": "Luke-Acts - The Baptism of Jesus",
+    "file": "Luke-Acts - The Baptism of Jesus.mp3"
   },
   {
     "date": "2021-09-26 00:02:00",
@@ -6181,8 +6181,8 @@
   },
   {
     "date": "2021-09-28 00:01:00",
-    "title": "Gospel - Luke 9-19",
-    "file": "Gospel - Luke 9-19.mp3"
+    "title": "Luke-Acts - The Prodigal Son",
+    "file": "Luke-Acts - The Prodigal Son.mp3"
   },
   {
     "date": "2021-09-28 00:02:00",
@@ -6266,8 +6266,8 @@
   },
   {
     "date": "2021-10-03 00:01:00",
-    "title": "Gospel - Luke 19-23",
-    "file": "Gospel - Luke 19-23.mp3"
+    "title": "Luke-Acts - The Crucifixion of Jesus",
+    "file": "Luke-Acts - The Crucifixion of Jesus.mp3"
   },
   {
     "date": "2021-10-03 00:02:00",
@@ -6291,8 +6291,8 @@
   },
   {
     "date": "2021-10-05 00:01:00",
-    "title": "Gospel - Luke 24",
-    "file": "Gospel - Luke 24.mp3"
+    "title": "Luke-Acts - The Resurrection of Jesus",
+    "file": "Luke-Acts - The Resurrection of Jesus.mp3"
   },
   {
     "date": "2021-10-05 00:02:00",
@@ -6341,31 +6341,41 @@
   },
   {
     "date": "2021-10-08 00:01:00",
+    "title": "Luke-Acts - Pentecost",
+    "file": "Luke-Acts - Pentecost.mp3"
+  },
+  {
+    "date": "2021-10-08 00:02:00",
     "title": "Acts 5",
     "file": "Acts 05.mp3"
   },
   {
-    "date": "2021-10-08 00:02:00",
+    "date": "2021-10-08 00:03:00",
     "title": "Acts 6",
     "file": "Acts 06.mp3"
   },
   {
-    "date": "2021-10-08 00:03:00",
+    "date": "2021-10-08 00:04:00",
     "title": "Psalm 121",
     "file": "Psalm 121.mp3"
   },
   {
     "date": "2021-10-09 00:01:00",
+    "title": "Luke-Acts - The Apostle Paul",
+    "file": "Luke-Acts - The Apostle Paul.mp3"
+  },
+  {
+    "date": "2021-10-09 00:02:00",
     "title": "Acts 7",
     "file": "Acts 07.mp3"
   },
   {
-    "date": "2021-10-09 00:02:00",
+    "date": "2021-10-09 00:03:00",
     "title": "Acts 8",
     "file": "Acts 08.mp3"
   },
   {
-    "date": "2021-10-09 00:03:00",
+    "date": "2021-10-09 00:04:00",
     "title": "Psalm 122",
     "file": "Psalm 122.mp3"
   },
@@ -6421,16 +6431,21 @@
   },
   {
     "date": "2021-10-13 00:01:00",
+    "title": "Luke-Acts - Paul's Missionary Journeys",
+    "file": "Luke-Acts - Paul's Missionary Journeys.mp3"
+  },
+  {
+    "date": "2021-10-13 00:02:00",
     "title": "Acts 15",
     "file": "Acts 15.mp3"
   },
   {
-    "date": "2021-10-13 00:02:00",
+    "date": "2021-10-13 00:03:00",
     "title": "Acts 16",
     "file": "Acts 16.mp3"
   },
   {
-    "date": "2021-10-13 00:03:00",
+    "date": "2021-10-13 00:04:00",
     "title": "Psalm 126",
     "file": "Psalm 126.mp3"
   },
@@ -6466,31 +6481,41 @@
   },
   {
     "date": "2021-10-16 00:01:00",
+    "title": "Luke-Acts - Bound for Rome",
+    "file": "Luke-Acts - Bound for Rome.mp3"
+  },
+  {
+    "date": "2021-10-16 00:02:00",
     "title": "Acts 21",
     "file": "Acts 21.mp3"
   },
   {
-    "date": "2021-10-16 00:02:00",
+    "date": "2021-10-16 00:03:00",
     "title": "Acts 22",
     "file": "Acts 22.mp3"
   },
   {
-    "date": "2021-10-16 00:03:00",
+    "date": "2021-10-16 00:04:00",
     "title": "Psalm 129",
     "file": "Psalm 129.mp3"
   },
   {
     "date": "2021-10-17 00:01:00",
+    "title": "Advent - Yakhal-Hope",
+    "file": "Advent - Yakhal-Hope.mp3"
+  },
+  {
+    "date": "2021-10-17 00:02:00",
     "title": "Acts 23",
     "file": "Acts 23.mp3"
   },
   {
-    "date": "2021-10-17 00:02:00",
+    "date": "2021-10-17 00:03:00",
     "title": "Acts 24",
     "file": "Acts 24.mp3"
   },
   {
-    "date": "2021-10-17 00:03:00",
+    "date": "2021-10-17 00:04:00",
     "title": "Psalm 130",
     "file": "Psalm 130.mp3"
   },
@@ -6546,8 +6571,8 @@
   },
   {
     "date": "2021-10-21 00:01:00",
-    "title": "Bad Word - Pesha-Transgression",
-    "file": "Bad Word - Pesha-Transgression.mp3"
+    "title": "Character of God - Grace",
+    "file": "Character of God - Grace.mp3"
   },
   {
     "date": "2021-10-21 00:02:00",
