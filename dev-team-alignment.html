@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>*** DEV TEAM ALIGNMENT ZONE ***</title>
+    <style>
+        body {
+            background-color: #000000;
+            background-image: url('https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif');
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            color: #FF00FF;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .container {
+            background-color: #000080;
+            border: 5px solid #FF0000;
+            border-radius: 10px;
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            box-shadow: 10px 10px 5px #888888;
+        }
+        
+        h1 {
+            color: yellow;
+            font-size: 36px;
+            text-shadow: 3px 3px #FF0000;
+            animation: blink 1s infinite;
+        }
+        
+        h2 {
+            color: #00FF00;
+            font-size: 28px;
+            text-decoration: underline;
+            margin-top: 30px;
+        }
+        
+        marquee {
+            background-color: #FFFF00;
+            color: #FF0000;
+            font-weight: bold;
+            padding: 8px;
+            margin: 20px 0;
+        }
+        
+        .update-form {
+            background-color: #C0C0C0;
+            border: 3px dashed #FF00FF;
+            padding: 15px;
+            margin: 20px auto;
+            width: 70%;
+            text-align: left;
+        }
+        
+        .update-form label {
+            color: #0000FF;
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+        
+        .update-form input, .update-form textarea, .update-form select {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            border: 2px inset #808080;
+        }
+        
+        .update-form button {
+            background-color: #FF0000;
+            color: #FFFFFF;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: 3px outset #C0C0C0;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        
+        .update-form button:hover {
+            background-color: #00FF00;
+            color: #000000;
+        }
+        
+        .updates-section {
+            background-color: #FFFFFF;
+            border: 3px solid #00FF00;
+            color: #000000;
+            padding: 10px;
+            margin-top: 30px;
+            text-align: left;
+        }
+        
+        .update-entry {
+            border-bottom: 2px dotted #FF00FF;
+            padding: 10px 0;
+        }
+        
+        .visitor-counter {
+            margin-top: 30px;
+            font-weight: bold;
+            color: #FFFF00;
+        }
+        
+        .blink {
+            animation: blink 1s infinite;
+        }
+        
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        
+        .construction {
+            margin: 20px 0;
+        }
+        
+        .webring {
+            margin-top: 30px;
+            background-color: #CCCCCC;
+            padding: 10px;
+            border: 1px solid #000000;
+            font-size: 12px;
+        }
+        
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #FFFFFF;
+        }
+        
+        .midi-player {
+            margin: 20px 0;
+        }
+        
+        /* 90s style animation */
+        .rainbow-text {
+            background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+            -webkit-background-clip: text;
+            color: transparent;
+            font-weight: bold;
+        }
+        
+        /* Add some 90s graphics in pure CSS */
+        .flame {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
+            background: linear-gradient(to top, #FF0000, #FF9900);
+            position: relative;
+            margin: 0 10px;
+        }
+        
+        .flame:before {
+            content: "";
+            position: absolute;
+            width: 80%;
+            height: 80%;
+            border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
+            background: linear-gradient(to top, #FFCC00, #FFFF00);
+            top: 5%;
+            left: 10%;
+        }
+        
+        .star {
+            display: inline-block;
+            margin: 0 15px;
+            position: relative;
+            width: 0;
+            height: 0;
+            border-right: 10px solid transparent;
+            border-bottom: 7px solid #FFFF00;
+            border-left: 10px solid transparent;
+            transform: rotate(35deg);
+        }
+        
+        .star:before {
+            border-bottom: 8px solid #FFFF00;
+            border-left: 3px solid transparent;
+            border-right: 3px solid transparent;
+            position: absolute;
+            height: 0;
+            width: 0;
+            top: -4.5px;
+            left: -6.5px;
+            content: '';
+            transform: rotate(-35deg);
+        }
+        
+        .star:after {
+            position: absolute;
+            content: '';
+            top: 0;
+            left: -10.5px;
+            width: 0;
+            height: 0;
+            border-right: 10px solid transparent;
+            border-bottom: 7px solid #FFFF00;
+            border-left: 10px solid transparent;
+            transform: rotate(-70deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="star"></div>
+        <h1>WELCOME TO THE DEV TEAM ALIGNMENT ZONE!!!</h1>
+        <div class="star"></div>
+        
+        <div class="construction">
+            <!-- Simple construction sign in CSS -->
+            <div style="background-color: #FFFF00; border: 3px solid #000000; display: inline-block; padding: 5px 15px;">
+                <span style="color: #000000; font-weight: bold; font-size: 24px;">UNDER CONSTRUCTION</span>
+            </div>
+        </div>
+        
+        <marquee scrollamount="5" direction="left">*** KEEP THE COMMUNICATION FLOWING BETWEEN PRODUCT TEAMS! *** AVOID SILOING! *** STAY ALIGNED! ***</marquee>
+        
+        <h2>Share Your Team Updates Here!</h2>
+        <p class="blink">Help us stay aligned and in-sync!</p>
+        
+        <div class="update-form">
+            <form id="teamUpdateForm">
+                <label for="teamName">Your Team Name:</label>
+                <input type="text" id="teamName" required>
+                
+                <label for="developerName">Your Name:</label>
+                <input type="text" id="developerName" required>
+                
+                <label for="updateCategory">Update Category:</label>
+                <select id="updateCategory" required>
+                    <option value="">-- Select Category --</option>
+                    <option value="Feature Launch">Feature Launch</option>
+                    <option value="Technical Change">Technical Change</option>
+                    <option value="API Update">API Update</option>
+                    <option value="Bug Fix">Bug Fix</option>
+                    <option value="Performance Improvement">Performance Improvement</option>
+                    <option value="Other">Other</option>
+                </select>
+                
+                <label for="updateDescription">What's New In Your Team?</label>
+                <textarea id="updateDescription" rows="5" required></textarea>
+                
+                <label for="impactLevel">Impact on Other Teams:</label>
+                <select id="impactLevel" required>
+                    <option value="">-- Select Impact Level --</option>
+                    <option value="High">High - Immediate Action Required</option>
+                    <option value="Medium">Medium - Please Review Soon</option>
+                    <option value="Low">Low - For Your Information</option>
+                    <option value="None">None - Internal Team Update Only</option>
+                </select>
+                
+                <button type="submit">SUBMIT YOUR UPDATE!!!</button>
+            </form>
+        </div>
+        
+        <h2>Recent Team Updates</h2>
+        <div class="updates-section" id="updatesContainer">
+            <p><i>No updates yet. Be the first to share!</i></p>
+        </div>
+        
+        <div class="midi-player">
+            <p><b>MIDI BACKGROUND MUSIC:</b></p>
+            <!-- Simple music notes in pure CSS -->
+            <div style="display: inline-block; margin: 10px;">
+                <div style="width: 10px; height: 20px; background-color: #000; border-radius: 50% 50% 0 0;"></div>
+                <div style="width: 2px; height: 30px; background-color: #000; margin-left: 9px; margin-top: -5px;"></div>
+            </div>
+            <div style="display: inline-block; margin: 10px;">
+                <div style="width: 10px; height: 20px; background-color: #000; border-radius: 50% 50% 0 0;"></div>
+                <div style="width: 2px; height: 25px; background-color: #000; margin-left: 9px; margin-top: -5px;"></div>
+            </div>
+            <div style="display: inline-block; margin: 10px;">
+                <div style="width: 10px; height: 20px; background-color: #000; border-radius: 50% 50% 0 0;"></div>
+                <div style="width: 2px; height: 35px; background-color: #000; margin-left: 9px; margin-top: -5px;"></div>
+            </div>
+            <br>
+            <span class="blink">[your browser does not support embedded midi]</span>
+        </div>
+        
+        <div class="visitor-counter">
+            <span>Visitor Count: </span>
+            <span id="visitorCount">1</span>
+        </div>
+        
+        <div class="webring">
+            <p>Proud member of the "Dev Team WebRing" - Your Source for Development Updates!</p>
+            <div class="flame"></div>
+            <a href="#">&lt;&lt; Previous</a> | <a href="#">Home</a> | <a href="#">Next &gt;&gt;</a>
+            <div class="flame"></div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2023 Dev Team Alignment Zone - Best viewed in <span class="rainbow-text">Netscape Navigator 4.0</span> at 800x600</p>
+            <p>This page was last updated on <span id="lastUpdated"></span></p>
+            <!-- Simple computer icon in CSS -->
+            <div style="display: inline-block; width: 50px; height: 40px; background-color: #333; border-radius: 5px; position: relative; margin-top: 10px;">
+                <div style="position: absolute; top: 5px; left: 5px; width: 40px; height: 25px; background-color: #99CCFF; border: 1px solid #666;"></div>
+                <div style="position: absolute; bottom: 0; left: 15px; width: 20px; height: 5px; background-color: #333;"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Set the last updated date
+        document.getElementById('lastUpdated').innerText = new Date().toLocaleDateString();
+        
+        // Visitor counter
+        let visitorCount = localStorage.getItem('visitorCount') || 0;
+        visitorCount = parseInt(visitorCount) + 1;
+        localStorage.setItem('visitorCount', visitorCount);
+        document.getElementById('visitorCount').innerText = visitorCount;
+        
+        // Handle form submission
+        document.getElementById('teamUpdateForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const teamName = document.getElementById('teamName').value;
+            const developerName = document.getElementById('developerName').value;
+            const updateCategory = document.getElementById('updateCategory').value;
+            const updateDescription = document.getElementById('updateDescription').value;
+            const impactLevel = document.getElementById('impactLevel').value;
+            
+            // Create a new update entry
+            const newUpdate = document.createElement('div');
+            newUpdate.className = 'update-entry';
+            
+            // Format the current date and time
+            const now = new Date();
+            const dateFormatted = now.toLocaleDateString() + ' ' + now.toLocaleTimeString();
+            
+            // Impact level color
+            let impactColor = '#000000';
+            if (impactLevel === 'High') impactColor = '#FF0000';
+            if (impactLevel === 'Medium') impactColor = '#FF6600';
+            if (impactLevel === 'Low') impactColor = '#009900';
+            
+            // Set the HTML content for the new update
+            newUpdate.innerHTML = `
+                <h3 style="color: #0000FF;">${updateCategory} - ${teamName}</h3>
+                <p><strong>By:</strong> ${developerName} <strong>On:</strong> ${dateFormatted}</p>
+                <p>${updateDescription}</p>
+                <p><strong>Impact Level:</strong> <span style="color: ${impactColor}; font-weight: bold;">${impactLevel}</span></p>
+            `;
+            
+            // Add the new update to the updates container
+            const updatesContainer = document.getElementById('updatesContainer');
+            
+            // Remove the "no updates yet" message if it exists
+            if (updatesContainer.innerHTML.includes('No updates yet')) {
+                updatesContainer.innerHTML = '';
+            }
+            
+            // Add the new update at the top
+            updatesContainer.insertBefore(newUpdate, updatesContainer.firstChild);
+            
+            // Reset the form
+            document.getElementById('teamUpdateForm').reset();
+            
+            // Show a fun 90s alert
+            alert('🌟 YOUR UPDATE HAS BEEN POSTED! 🌟\nThank you for keeping the teams aligned!');
+        });
+        
+        // Create a 90s-style cursor trail effect
+        (() => {
+            const maxTrail = 10;
+            const trailDelay = 100;
+            const trail = [];
+            
+            for (let i = 0; i < maxTrail; i++) {
+                const div = document.createElement('div');
+                div.style.position = 'fixed';
+                div.style.width = '10px';
+                div.style.height = '10px';
+                div.style.borderRadius = '50%';
+                div.style.background = i % 2 ? '#FF00FF' : '#00FFFF';
+                div.style.zIndex = 9999;
+                div.style.pointerEvents = 'none';
+                div.style.opacity = 1 - (i / maxTrail);
+                div.style.display = 'none';
+                document.body.appendChild(div);
+                trail.push(div);
+            }
+            
+            let lastX = 0;
+            let lastY = 0;
+            let currentTrail = 0;
+            
+            document.addEventListener('mousemove', (e) => {
+                lastX = e.pageX;
+                lastY = e.pageY;
+                
+                trail[currentTrail].style.display = 'block';
+                trail[currentTrail].style.left = (lastX - 5) + 'px';
+                trail[currentTrail].style.top = (lastY - 5) + 'px';
+                
+                currentTrail = (currentTrail + 1) % maxTrail;
+            });
+        })();
+    </script>
+</body>
+</html> 
