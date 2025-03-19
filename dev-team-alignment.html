@@ -204,6 +204,93 @@
             border-left: 10px solid transparent;
             transform: rotate(-70deg);
         }
+        
+        .awards {
+            margin-top: 30px;
+            text-align: center;
+        }
+        
+        .awards-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .awards-container img {
+            max-height: 80px;
+            border: none;
+        }
+        
+        .guestbook {
+            margin-top: 30px;
+            background-color: #000066;
+            border: 3px solid #FFCC00;
+            padding: 15px;
+            color: #FFFFFF;
+        }
+        
+        .guestbook-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .guestbook-entries {
+            background-color: #FFFFFF;
+            color: #000000;
+            border: 2px inset #999999;
+            padding: 10px;
+            max-height: 200px;
+            overflow-y: auto;
+            text-align: left;
+        }
+        
+        .guestbook-entry {
+            border-bottom: 1px dotted #999999;
+            padding: 10px 0;
+        }
+        
+        .guestbook-entry h4 {
+            color: #FF0000;
+            margin: 0 0 5px 0;
+        }
+        
+        .guestbook-entry small {
+            color: #666666;
+            font-style: italic;
+        }
+        
+        .guestbook-options {
+            display: flex;
+            gap: 15px;
+            margin: 10px 0;
+        }
+        
+        .download-netscape {
+            margin-top: 30px;
+            background-color: #FFCC33;
+            border: 5px ridge #FF9900;
+            padding: 15px;
+            color: #000066;
+        }
+        
+        .download-button {
+            background: linear-gradient(to bottom, #66CCFF, #0066CC);
+            color: #FFFFFF;
+            font-weight: bold;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            font-size: 18px;
+            padding: 10px 15px;
+            border: 3px outset #9999CC;
+            cursor: pointer;
+            margin: 15px auto;
+        }
+        
+        .download-button:hover {
+            background: linear-gradient(to bottom, #99CCFF, #0099FF);
+        }
     </style>
 </head>
 <body>
@@ -294,6 +381,91 @@
             <div class="flame"></div>
             <a href="#">&lt;&lt; Previous</a> | <a href="#">Home</a> | <a href="#">Next &gt;&gt;</a>
             <div class="flame"></div>
+        </div>
+        
+        <div class="awards">
+            <h2>Our Site Awards</h2>
+            <div class="awards-container">
+                <!-- Replaced with CSS-based award badges -->
+                <div class="award-badge" style="background-color: #000; color: yellow; padding: 10px; border: 3px ridge #FF0000; font-weight: bold; display: inline-block; width: 120px; height: 70px;">
+                    <div style="font-size: 14px;">COOL SITE</div>
+                    <div style="font-size: 12px;">OF THE</div>
+                    <div style="font-size: 16px; color: #00FF00;">DAY!</div>
+                </div>
+                <div class="award-badge" style="background-color: #0000CC; color: white; padding: 10px; border: 3px ridge #00FFFF; font-weight: bold; display: inline-block; width: 120px; height: 70px;">
+                    <div style="font-size: 14px;">TOP 100</div>
+                    <div style="font-size: 16px; color: #FF00FF;">COOL</div>
+                    <div style="font-size: 12px;">SITES</div>
+                </div>
+                <div class="award-badge" style="background: linear-gradient(to bottom, #FF0000, #000066); color: yellow; padding: 10px; border: 3px ridge gold; font-weight: bold; display: inline-block; width: 120px; height: 70px;">
+                    <div style="font-size: 16px;">JAMMIN'</div>
+                    <div style="font-size: 14px; color: #00FF00;">COOL SITE</div>
+                    <div style="font-size: 12px;">AWARD</div>
+                </div>
+                <div class="award-badge" style="background-color: #660066; color: #FFFF00; padding: 10px; border: 3px ridge white; font-weight: bold; display: inline-block; width: 120px; height: 70px;">
+                    <span class="rainbow-text" style="font-size: 16px;">YAHOO!</span>
+                    <div style="font-size: 14px;">COOL SITE</div>
+                    <div style="font-size: 12px; color: #00FFFF;">PICK</div>
+                </div>
+                <div class="award-badge" style="background: linear-gradient(to right, #FF0000, #0000FF); color: white; padding: 10px; border: 3px ridge silver; font-weight: bold; display: inline-block; width: 120px; height: 70px;">
+                    <div style="font-size: 12px;">BOB'S</div>
+                    <div style="font-size: 16px; color: #FFFF00;">COOL LINK</div>
+                    <div style="font-size: 14px;">AWARD</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="guestbook">
+            <h2>Sign Our Guestbook!</h2>
+            <div class="guestbook-container">
+                <form id="guestbookForm">
+                    <label for="guestName">Your Name:</label>
+                    <input type="text" id="guestName" required>
+                    
+                    <label for="guestEmail">Email (won't be displayed):</label>
+                    <input type="email" id="guestEmail">
+                    
+                    <label for="guestWebsite">Your Website:</label>
+                    <input type="text" id="guestWebsite" placeholder="http://">
+                    
+                    <label for="guestMessage">Your Message:</label>
+                    <textarea id="guestMessage" rows="3" required></textarea>
+                    
+                    <div class="guestbook-options">
+                        <label>
+                            <input type="checkbox" id="guestEmailVisible"> Make my email visible
+                        </label>
+                        <label>
+                            <input type="checkbox" id="guestNotify" checked> Email me when others sign
+                        </label>
+                    </div>
+                    
+                    <button type="submit">SIGN GUESTBOOK!</button>
+                </form>
+                
+                <div class="guestbook-entries" id="guestbookEntries">
+                    <div class="guestbook-entry">
+                        <h4>Webmaster</h4>
+                        <p>Welcome to our guestbook! Please leave a message to show you've been here!</p>
+                        <small>Posted on: 1/1/2023</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="download-netscape">
+            <h2 class="blink">Get the BEST experience!</h2>
+            <p>This site is optimized for <span class="rainbow-text">Netscape Navigator 4.0</span>!</p>
+            <a href="https://archive.org/download/netscape-navigator-4.08" target="_blank">
+                <button class="download-button">
+                    <!-- CSS Netscape Logo instead of image -->
+                    <div style="display: inline-block; vertical-align: middle; margin-right: 10px; width: 40px; height: 40px; background: radial-gradient(circle at center, #0000AA 60%, #000033 100%); border-radius: 50%; position: relative; border: 2px solid #FFFFFF;">
+                        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 20px; font-weight: bold;">N</div>
+                    </div>
+                    DOWNLOAD NETSCAPE NOW!
+                </button>
+            </a>
+            <p><small>Best viewed at 800x600 resolution with 16-bit color</small></p>
         </div>
         
         <div class="footer">
@@ -403,6 +575,51 @@
                 currentTrail = (currentTrail + 1) % maxTrail;
             });
         })();
+        
+        // Handle guestbook submission
+        document.getElementById('guestbookForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const guestName = document.getElementById('guestName').value;
+            const guestEmail = document.getElementById('guestEmail').value;
+            const guestWebsite = document.getElementById('guestWebsite').value;
+            const guestMessage = document.getElementById('guestMessage').value;
+            const guestEmailVisible = document.getElementById('guestEmailVisible').checked;
+            
+            // Create a new guestbook entry
+            const newEntry = document.createElement('div');
+            newEntry.className = 'guestbook-entry';
+            
+            // Format the current date
+            const now = new Date();
+            const dateFormatted = now.toLocaleDateString();
+            
+            // Set the HTML content for the new entry
+            let entryContent = `<h4>${guestName}</h4>`;
+            
+            if (guestWebsite) {
+                entryContent += `<p><strong>Website:</strong> <a href="${guestWebsite}" target="_blank">${guestWebsite}</a></p>`;
+            }
+            
+            if (guestEmailVisible && guestEmail) {
+                entryContent += `<p><strong>Email:</strong> <a href="mailto:${guestEmail}">${guestEmail}</a></p>`;
+            }
+            
+            entryContent += `<p>${guestMessage}</p>`;
+            entryContent += `<small>Posted on: ${dateFormatted}</small>`;
+            
+            newEntry.innerHTML = entryContent;
+            
+            // Add the new entry to the guestbook entries container
+            const entriesContainer = document.getElementById('guestbookEntries');
+            entriesContainer.insertBefore(newEntry, entriesContainer.firstChild);
+            
+            // Reset the form
+            document.getElementById('guestbookForm').reset();
+            
+            // Show a 90s style alert
+            alert('🌟 THANKS FOR SIGNING OUR GUESTBOOK! 🌟');
+        });
     </script>
 </body>
 </html> 
