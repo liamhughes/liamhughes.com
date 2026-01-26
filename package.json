@@ -22,7 +22,7 @@
   "homepage": "https://github.com/liamhughes/liamhughes.com#readme",
   "dependencies": {
     "handlebars": "^4.7.7",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "moment-timezone": "^0.5.35",
     "normalize.css": "^8.0.1"
   },
